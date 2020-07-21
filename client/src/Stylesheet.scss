@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  outline: none;
+}
+
+.pagination>.active>a {
+  background-color: #5B1F65;
+  color: #fff;
+}
+
+.pagination>li>a {
+  border: 1px solid #5B1F65;
+  margin-top: 50px;
+  outline: none;
+  cursor: pointer;
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+  background-color: #5B1F65;
+  border-color: #5B1F65;
+  outline: none;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  color: #5B1F65;
+  font-weight: 800;
+  padding: 10px 20px;
+  font-size: 18px;
+  transition: 200ms ease;
+}
+
+.pagination>li>a:hover,
+.pagination>li>span:hover {
+  background-color: #5B1F65;
+  color: white;
+}
+
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span,
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+  border-radius: unset
+}
+
+.reactPagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .pagination li {
+    margin-top: 25px !important;
+  }
+}

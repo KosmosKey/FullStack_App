@@ -1,0 +1,44 @@
+.page-item_container {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-right: 50;
+}
+
+.pageination_container {
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+}
+
+
+.page-link_container {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    color: #545d7a;
+    font-weight: bold;
+    border: 1px solid #0c112062;
+    transition: 200ms ease-in-out;
+}
+
+.page-link_container:hover {
+    text-decoration: none;
+    background: #0c1120;
+    color: white;
+}
+
+.page-link_container.active {
+    background: #0c1120;
+    color: white;
+}
+
+
+.pagination {
+    display: inline-flex;
+    flex-wrap: wrap;
+}

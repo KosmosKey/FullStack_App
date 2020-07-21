@@ -1,0 +1,39 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "\"App created with MongoDB, Express JS, React JS, Node JS\"",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.24"
+  },
+  "engines": {
+    "node": "12.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix client",
+    "start": "node index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+    "install-client": "cd client && npm run build",
+    "server": "nodemon index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KosmosKey/FullStack.git"
+  },
+  "author": "\"Magomed Khamidov\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KosmosKey/FullStack/issues"
+  },
+  "homepage": "https://github.com/KosmosKey/FullStack#readme"
+}

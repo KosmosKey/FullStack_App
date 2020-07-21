@@ -1,0 +1,82 @@
+.title_for_name {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 800;
+  color: #5b1f65;
+  border-bottom: 1px solid rgb(55, 0, 143);
+}
+
+.title_for_email {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  margin-top: 25px;
+  color: #5b1f65;
+  border-bottom: 1px solid rgb(55, 0, 143);
+}
+
+.title_for_description {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #5b1f65;
+  margin-top: 25px;
+  border-bottom: 1px solid rgb(55, 0, 143);
+}
+
+.fa_edit {
+  align-items: center;
+  text-align: center;
+  padding: 7px 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.fa_trash {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+
+
+.my-node-enter {
+  opacity: 0;
+}
+
+.my-node-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+
+.my-node-exit {
+  opacity: 1;
+}
+
+.my-node-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}
