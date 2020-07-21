@@ -14,4 +14,4 @@
 ```
 
 ## Visit THE MERN STACK APP HERE!
-[MIT](https://merntsackapplication.herokuapp.com/)
+[VISIT HERE!](https://merntsackapplication.herokuapp.com/)
